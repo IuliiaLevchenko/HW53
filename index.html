@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Power</title>
+  </head>
+  <body>
+    <br />
+    <!--Field for entering power-->
+    <label for="power">Введіть ступінь:</label>
+    <input type="number" id="power" value="1" min="0" /><br /><br />
+
+    <!--Field for entering number-->
+    <label for="numberInput">Введіть число:</label>
+    <input type="number" id="numberInput" value="1" min="0" /><br /><br />
+
+    <!--Button which is call Function for raising the number to the power-->
+    <button onclick="pow()">Звести число до ступеня</button>
+
+    <!--When user click the "Звести число до ступеня" button, the result of raising the number to the power will be displayed in the output div -->
+    <div id="output"></div>
+
+    <!--Include the script file-->
+    <script src="power.js"></script>
+  </body>
+</html>
